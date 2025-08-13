@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=e, initial-scale=1.0">
+    <title>imgemns</title>
+    <style>
+        
+        body{
+            background-image: linear-gradient(to right, #923bf0, #5A3385);
+        }
+
+        img{
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imgens flexiveis">
+    </picture>
+    <h1>Audio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/mae.solteira.mp3" type="audio/mpeg">
+        <source src="midia/mae.solteira.ogg" type="audio/ogg">
+        <source src="midia/mae.solteira.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

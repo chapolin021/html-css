@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        .especial{
+            background-color: rgb(218, 143, 143);
+            
+        }
+
+        a:active{
+            color: rebeccapurple;
+        }
+
+        .especial::before{
+            content: '♣';
+            font-size: 20px;
+        }
+        
+        .especial::after{
+            content: '♠';
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/chapolin021" target="_blank" rel="external">Repositorio GitHub</a></li>
+        <li><a href="https://aternos.org/:pt-BR/ " target="_blank" rel="external" class="especial">Aternos</a></li>
+        <li><a href="https://www.instagram.com/xavierxz_021/" target="_blank" rel="external" class="especial">instagram</a></li>
+    </ul>
+</body>
+</html>

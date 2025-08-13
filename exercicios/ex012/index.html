@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, white, purple);
+        }
+
+        h1
+
+        form{
+            color: rgba(255, 0, 0, 0.87);
+            font-size: 20px;
+            margin: 10px;
+            
+        }
+
+        input{
+            padding: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <audio>
+        <source src="" type="">
+    </audio>
+    <form>
+        Primeiro nome:
+                    <label for="Primeiro nome"></label> 
+                    <input type="text" name="nome" size="15" maxlength="20" placeholder="Digite seu nome">
+                    <br><br>
+        Último nome:
+                    <label for="Último nome"></label>
+                    <input type="text" name="sobrenome"
+                    size="15" minlength="20" placeholder="Digite seu sobrenome">
+                    <br><br>
+        Senha:
+                <label for="Pasword"></label>
+                <input type="text"
+                 name="senha" 
+                 size="15"
+                maxlength="5"
+                placeholder="Digite sua Senha"
+                required>
+                <br><br>
+                <input type="radio" name="sexo"
+                value="masc"> Masculino
+                <input type="radio" name="sexo"
+                value="fem"> Feminino
+                <input type="radio" name="sexo"
+                value="todes"> Todes 
+                <br> <br>
+                <input type="checkbox" name="bike">
+                    Eu tenho uma bicicleta
+                    <br>
+                <input type="checkbox" name="car">
+                    Eu tanho um carro
+                    <br>
+                <input type="checkbox" name="skate">
+                    Eu tenho um skate
+                    <br><br>
+                    <select name="estados">
+                        <option value="DF">DF</option>
+                        <option value="BH">BH</option>
+                        <option value="GO">GO</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                    </select>
+                    <BR></BR>
+                <textarea name="comentario" cols="35" rows="1"></textarea>
+                <br>Digite seu comentário AQUI EM CIMA⬆️. 
+                <br>
+                <input type="file" name="arquivo">
+                <br><br>
+                <input type="button" name="clicar" value="Clique aqui">
+                <br><br>
+                <input type="submit" name="enviar">
+                <br><br>
+                <input type="reset" name="limpar" value="limpar">
+                <br><br>
+                <input type="image" src="imagens/verifica.png" width="30">
+                
+    </form>
+</body>
+</html>
